@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(home.css);
+@import url(pokemonTypes.css);
+@import url(details.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root{
+    --font: 'Poppins', sans-serif;
+    --dark-red: #B50003;
+    --light-red: #Fb2e31;
+    --light-gray: #686868;
+    --dark-blue: #0b0740;
+    --white: #fdf8f8;
+}
+
+body{
+    font-family: var(--font);
+    background-color: rgb(209, 247, 247);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}

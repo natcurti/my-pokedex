@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <script src="assets/js/main.js" defer></script>
+    <title>PokeDex</title>
+</head>
+<body>
+    <div class="container__header-and-main">
+        <header class="header">
+            <img src="assets/logopokemon.png" alt="Ícone da pokebola" class="header__img">
+            <h1 class="header__title">PokéDex</h1>
+        </header>
+        <main class="main">
+            <h2 class="main__title">Procure pelo Pokémon usando o nome ou número dele</h2>
+            <div class="main__container__search">
+                <div class="main__container__input">
+                    <button class="main__button__search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Digite o nome ou o número" class="main__input" id="input">
+                </div>
+                <div class="main__container__filter">
+                    <button class="main__button__filter" id="btnFilter">
+                        <i class="fa-solid fa-arrow-up-wide-short"></i>
+                    </button>
+                    <div class="main__container__filter-options" id="filterOptions" style="display: none;">
+                        <p>Pesquise por:</p>
+                        <label for="nameOption">
+                            <input type="radio" name="filter" id="nameOption" value="name">Nome
+                        </label>
+                        <label for="numberOption">
+                            <input type="radio" name="filter" id="numberOption" value="number">Número
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="main__container__pokemons" id="containerPokemons">
+                <!-- <div class="main__container__card">
+                    <div class="main__container__card-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="main__container__card-info">
+                        <p class="main__container__card-number"></p>
+                        <p class="main__container__card-name"></p>
+                        <div class="main__container__card-types"> 
+                            <p class="main__container__card-type"></p>
+                            <p class="main__container__card-type"></p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="main__container__not-found" id="notFound">
+                    <p>Nenhum pokémon encontrado!</p>
+                </div>
+            </div>
+            <div class="main__container__button">
+                <button class="main__button__load" id="btnLoadMore">Carregar mais</button>
+            </div>
+            <div class="main__container__button">
+                <button class="main__button__refresh" id="btnRefresh">Recarregar</button>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">"Prepare for trouble and make it double!"</p>
+        <img src="assets/pikachu.png" alt="Desenho do Pikachu" class="footer__img">
+    </footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* Header Details */
+
+.header__details{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.header__details__title{
+    font-size: 1.5rem;
+}
+
+.header__details__subtitle{
+    font-size: 0.85rem;
+    align-self: start;
+    margin-top: 1.5rem;
+}
+
+/* Buttons */
+
+.header__btn-back, .main__btn-left, .main__btn-right{
+    border: none;
+    background-color: transparent;
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header__btn-back i, .main__btn-left i, .main__btn-right i{
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+}
+
+/* Main */
+
+.main__details{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container__pokemon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main__img{
+    width: 12rem;
+    height: 12rem;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+}
+
+.main__container__details{
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.4);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main__container__types{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;  
+}
+
+.main__container__type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 5rem;
+    font-weight: 600;
+    color: var(--white)
+}
+
+.main__container__infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main__container__weight, .main__container__height{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.main__container__weight p, .main__container__height p{
+    color: var(--dark-blue);
+    
+}
+
+.main__container__divider{
+    width: 0.125rem;
+    height: 3rem;    
+    background-color: #cec9c9;
+}
+
+/* Base Stats */
+
+.main__container__base-stats{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% auto 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.main__base-stats-title{
+    grid-column: 1 / span 3;
+    color: var(--dark-blue);
+    font-weight: 700;
+    text-align: center;
+}
+
+.main__base-stats-subtitle{
+    font-size: 0.85rem;
+}
+
+.main__base-stats-subtitle, .main__base-stats-value{
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.main__base-stats-progress{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0.85rem;
+    width: 100%;
+}
+
+.main__base-stats-progress::-webkit-progress-bar{
+    background-color: #e7e7e7;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.3);
+}
+
+/* .main__base-stats-progress::-webkit-progress-value{
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.3);
+} */
+
+@media(min-width: 480px){
+    .main__details{
+        width: 27rem;
+    }
+}

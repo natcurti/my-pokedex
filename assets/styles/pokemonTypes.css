@@ -1,0 +1,170 @@
+/* Cores para os fundos */
+
+.normal{
+    background: linear-gradient(180deg, #aeb4b9, #ffffff);
+}
+
+.fire{
+    background: linear-gradient(180deg, #ff9d55, #ffffff);
+}
+
+.water{
+    background: linear-gradient(180deg, #5090d6, #ffffff);
+}
+
+.grass{
+    background: linear-gradient(180deg, #63bc5a, #ffffff);
+}
+
+.flying{
+    background: linear-gradient(180deg, #89aae3, #ffffff);
+}
+
+.fighting{
+    background: linear-gradient(180deg, #ce416b, #ffffff);
+}
+
+.poison{
+    background: linear-gradient(180deg, #b567ce, #ffffff);
+}
+
+.electric{
+    background: linear-gradient(180deg, #f4d23c, #ffffff);
+}
+
+.ground{
+    background: linear-gradient(180deg, #d97845, #ffffff);
+}
+
+.rock{
+    background: linear-gradient(180deg, #c5b78c, #ffffff);
+}
+
+.psychic{
+    background: linear-gradient(180deg, #fa7179, #ffffff);
+}
+
+.ice{
+    background: linear-gradient(180deg, #73cec0, #ffffff);
+}
+
+.bug{
+    background: linear-gradient(180deg, #91c12f, #ffffff);
+}
+
+.ghost{
+    background: linear-gradient(180deg, #5269ad, #ffffff);
+}
+
+.steel{
+    background: linear-gradient(180deg, #5a8ea2, #ffffff);
+}
+
+.dragon{
+    background: linear-gradient(180deg, #0b6dc3, #ffffff);
+}
+
+.dark{
+    background: linear-gradient(180deg, #5a5465, #ffffff);
+}
+
+.fairy{
+    background: linear-gradient(180deg, #ec8fcc, #ffffff);
+}
+
+/* Cores para os botões */
+
+.normal-solid{
+    background-color: #aeb4b9;
+}
+
+.fire-solid{
+    background-color: #ff9d55;
+}
+
+.water-solid{
+    background-color:#5090d6;
+}
+
+.grass-solid{
+    background-color: #63bc5a;
+}
+
+.flying-solid{
+    background-color: #89aae3;
+}
+
+.fighting-solid{
+    background-color: #ce416b;
+}
+
+.poison-solid{
+    background-color: #b567ce;
+}
+
+.electric-solid{
+    background-color: #f4d23c;
+}
+
+.ground-solid{
+    background-color: #d97845;
+}
+
+.rock-solid{
+    background-color: #c5b78c;
+}
+
+.psychic-solid{
+    background-color: #fa7179;
+}
+
+.ice-solid{
+    background-color: #73cec0;
+}
+
+.bug-solid{
+    background-color: #91c12f;
+}
+
+.ghost-solid{
+    background-color:#5269ad;
+}
+
+.steel-solid{
+    background-color:#5a8ea2;
+}
+
+.dragon-solid{
+    background-color:#0b6dc3;
+}
+
+.dark-solid{
+    background-color:#5a5465;
+}
+
+.fairy-solid{
+    background-color:#ec8fcc;
+}
+
+/* Cores para o fundo do elemento progress */
+
+:root{
+    --normal: #aeb4b9;
+    --fire: #ff9d55;
+    --water: #5090d6;
+    --grass: #63bc5a;
+    --flying: #89aae3;
+    --fighting: #ce416b;
+    --poison: #b567ce;
+    --electric: #f4d23c;
+    --ground: #d97845;
+    --rock: #c5b78c;
+    --psychic: #fa7179;
+    --ice: #73cec0;
+    --bug: #91c12f;
+    --ghost: #5269ad;
+    --steel: #5a8ea2;
+    --dragon: #0b6dc3;
+    --dark: #5a5465;
+    --fairy: #ec8fcc;
+}
